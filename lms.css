@@ -69,3 +69,8 @@ body.lms-export-body{margin:0}
   #lms-root .lms-player-toolbar{align-items:stretch}
   #lms-root .lms-player-toolbar .lms-primary{width:100%}
 }
+
+/* Documentation-backed skills lessons: readable code and completion exports. */
+.lms-code{max-width:100%;overflow:auto;white-space:pre;tab-size:2;padding:20px;border:1px solid var(--lms-border);border-radius:var(--lms-radius);background:var(--lms-background);color:var(--lms-text);font:calc(15px * var(--lms-scale))/1.7 ui-monospace,SFMono-Regular,Consolas,monospace;text-align:left}
+.lms-slide-content>.lms-prose+.lms-prose{margin-top:18px}.lms-sources{margin:24px 0}.lms-sources summary{cursor:pointer;font-weight:700;min-height:44px;padding:8px 0}.lms-sources li{margin:10px 0}.lms-sources a{color:var(--lms-brand);text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}.lms-guide{margin-top:24px;padding-top:24px;border-top:1px solid var(--lms-border)}
+@media(max-width:599px){.lms-slide.lms-player-stage{padding:36px 52px}.lms-code{font-size:13px;padding:12px}.lms-slide-content .lms-prose{font-size:17px}}
