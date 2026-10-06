@@ -1,6 +1,8 @@
 # Design foundations
 
-Run `python3 -m http.server 8000` in this folder and open http://localhost:8000. You can deploy this directory to any static host. No install/build step is needed. Direct remote media URLs require connectivity and permission to load. Uploaded media is packaged in assets/.
+The course is published with GitHub Pages at https://pythonidaer.github.io/react-lms/.
+
+To preview locally, run `python3 -m http.server 8000` in this folder and open http://localhost:8000. No install or build step is needed. Pushes to `main` update the live page. Direct remote media URLs require connectivity and permission to load. Uploaded media is packaged in assets/.
 
 Edit course.json and copy its JSON into the lms-course-data script in index.html, or re-export from Design Lab. The embedded JSON lets the course load without a data API. Keep IDs stable to preserve progress; changing a lesson’s content changes its fingerprint and starts that lesson’s saved progress over.
 
