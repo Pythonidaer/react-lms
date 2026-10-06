@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "id": "item-ae78e253-2119-409d-be6e-6e99c67882f1",
+  "title": "Design foundations",
+  "description": "A small course about making interfaces clear, usable and inclusive. Replace the sample material with your own.",
+  "sections": [
+    {
+      "id": "item-60c5ac69-29f8-4c31-b4f9-d280350ab33d",
+      "type": "section",
+      "title": "01 Start here",
+      "children": [
+        {
+          "id": "item-ce5b237f-6f09-4ee7-aa6a-3a1fb56df09b",
+          "type": "slides",
+          "title": "Welcome to the course",
+          "slides": [
+            {
+              "id": "item-e70a7b9c-cafe-4475-a1dd-3ae5ae1d0d0c",
+              "title": "A place to learn",
+              "body": "Learn at your own pace. Each section can contain more sections, slide decks, videos and quizzes. Your progress saves in this browser."
+            },
+            {
+              "id": "item-62c07ae3-40f5-4d9f-9d63-28665aff76b0",
+              "title": "How to use this course",
+              "body": "Use the outline to choose a lesson. Review each slide and mark lessons complete. The final quiz unlocks when the lessons are complete."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "item-c0d74710-f85e-49b4-8af3-c5b529877f58",
+      "type": "section",
+      "title": "02 Design in practice",
+      "children": [
+        {
+          "id": "item-c5f8a3fe-16a1-4004-b39a-b877e8415975",
+          "type": "section",
+          "title": "Clarity and feedback",
+          "children": [
+            {
+              "id": "item-8596866a-307e-4708-afeb-2659ef6dcb05",
+              "type": "slides",
+              "title": "Make the next action clear",
+              "slides": [
+                {
+                  "id": "item-43fbf8c2-3d37-4cf9-9647-a18f5afea746",
+                  "title": "Say what happens next",
+                  "body": "“Save changes” tells people more than “Continue”. A label should describe the action and its outcome."
+                },
+                {
+                  "id": "item-8a2a6ec1-11c1-45ed-b3ed-21af89e584aa",
+                  "title": "Make status visible",
+                  "body": "After someone saves, show a clear confirmation. If something fails, explain how they can recover."
+                }
+              ]
+            },
+            {
+              "id": "item-05e9de20-b62c-42e4-80e7-cbe509417f56",
+              "type": "video",
+              "title": "A short motion study",
+              "url": "motion.mp4",
+              "captions": "",
+              "transcript": "A silent six-second abstract loop shows soft bands and shapes moving across a dark background. It demonstrates a decorative motion asset, rather than teaching through spoken narration.",
+              "description": "Silent abstract sample loop. Use the transcript below as its text alternative."
+            },
+            {
+              "id": "item-0a3e7610-daef-4532-90c0-7b0ba32e9e2c",
+              "type": "quiz",
+              "title": "Check your understanding",
+              "questions": [
+                {
+                  "id": "item-3f0a72c5-97ea-4d0d-820b-2eaf34ac0ece",
+                  "prompt": "Which button label describes its action most clearly?",
+                  "options": [
+                    "Continue",
+                    "Save changes",
+                    "Next"
+                  ],
+                  "answer": 1,
+                  "explanation": "Describe the action so people can predict its result."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "finalQuiz": {
+    "id": "item-4eb06870-e41d-4ee9-96ba-20b0bb0d3a47",
+    "type": "quiz",
+    "title": "Final quiz",
+    "questions": [
+      {
+        "id": "item-8e2ed4b3-274e-4995-b492-a266a87314d2",
+        "prompt": "What should a successful save show?",
+        "options": [
+          "No change",
+          "A clear confirmation",
+          "A new color only"
+        ],
+        "answer": 1,
+        "explanation": "Visible status tells the learner that their action succeeded."
+      },
+      {
+        "id": "item-0e699f06-cdcb-47e9-8c94-8f2e07377083",
+        "prompt": "What helps people learn from video without hearing its audio?",
+        "options": [
+          "Autoplay",
+          "Captions and a transcript",
+          "A smaller video"
+        ],
+        "answer": 1,
+        "explanation": "Provide captions for synchronized audio and a transcript as a text alternative."
+      }
+    ]
+  },
+  "settings": {
+    "passScore": 80,
+    "allowRetakes": true,
+    "showLessonDetails": false,
+    "unlockAll": true,
+    "sequential": false,
+    "requireLessons": true,
+    "brand": "#8ffffd",
+    "background": "#151929",
+    "surface": "#151929",
+    "text": "#edf0f7",
+    "muted": "#a6afc0",
+    "border": "#678383",
+    "fontScale": 0.8,
+    "spacing": 16,
+    "contentWidth": 640,
+    "radius": 0,
+    "font": "humanist",
+    "headingFont": "humanist",
+    "lineHeight": 1.4
+  }
+}
